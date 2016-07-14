@@ -1,0 +1,38 @@
+/* CSS */
+h1 {
+  color: #00BFFF;
+  background-image: ;
+}
+.pic {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+h2 {
+  font-family: "Impact";
+  font-style: "oblique";
+  font-variant: "small-caps";
+}
+body {
+    background-image:url("LebronHames.jpg");
+    background-image: url("YOOOsemite.jpg");
+    background-size: cover;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 200px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 150%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
